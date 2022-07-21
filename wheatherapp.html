@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Wheather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="srcc/styles.css"/>
+    <script src="https://kit.fontawesome.com/95b7e8a10a.js" crossorigin="anonymous"></script>
+    </head>
+  <body>
+      <div class="container">
+        <div class="wheather-container">
+      <h1>
+          Kyiv
+        </h1>
+        <h2>
+          Friday
+        </h2>
+        <h6>
+          21:00
+        </h6>
+        <div class="row">
+            <div class="col-3">
+                <i class="fa-solid fa-sun main-icon"></i>
+              </div>
+              <div class="col-3">
+        <div class="grade"><span class="temp" id="temperature">26</span><span class="units">
+          <a href="#" id="celsius-link">°C</a> |
+          <a href="#" id="fahrenheit-link">°F</a>
+        </span></br><span id=rain>rain</span></br><span id=humadity>
+          Humidity: 80%</span></br><span id=wind>
+          Wind: 5 km/h</span></div>
+        </div>
+        <div class="col-3">
+            <form id="search-form">
+                <input
+                  type="text"
+                  placeholder="Enter a city"
+                  autocomplete="off"
+                  class="form-control"
+                  id="search-text"
+                />
+                <button type="submit"><i class="fa-solid fa-magnifying-glass second-icon"></i></button>
+              </form>
+              <button class="newbutton" id="button-location">Current</button>
+        </div>  
+        <div class="row">
+            <div class="col-2">
+              Mon
+            </br>
+            25°C
+          </br>
+        </br>
+          <i class="fa-solid fa-cloud-sun-rain"></i>
+            </div>
+            <div class="col-2">
+              Tue
+            </br>
+            25°C
+          </br>
+        </br>
+          <i class="fa-solid fa-cloud-showers-heavy"></i>
+            </div>
+            <div class="col-2">
+              Wed
+            </br>
+            24°C
+          </br>
+        </br>
+          <i class="fa-solid fa-cloud-bolt"></i>
+            </div>
+            <div class="col-2">
+              Thu
+            </br>
+            25°C
+        </br>
+        </br>
+          <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="col-2">
+              Fri
+            </br>
+            25°C
+          </br>
+        </br>
+          <i class="fa-solid fa-cloud-showers-heavy"></i>
+            </div>
+          </div>
+  </div>
+</div>
+         <script src="srcc/index.js"></script>
+  </body>
+</html>
