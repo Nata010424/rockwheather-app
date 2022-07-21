@@ -1,0 +1,89 @@
+.wheather-container {
+  background: #8ec9f9;
+  color: white;
+  box-shadow: 0 2px 2px 0rgba (0, 0, 0, 0.16), 0 0 0 1pxrgba (0, 0, 0, 0.08);
+  margin: -18px -1px;
+  max-width: 666px;
+}
+h1 {
+  position: relative;
+  top: 12px;
+  left: 20px;
+  font-size: 40px;
+  margin: 49px 19px 3px -21px;
+  padding: 1px 50px;
+}
+h2 {
+  font-size: 20px;
+  margin: 19px 69px 10px 15px;
+  padding: 11px 35px;
+}
+.main-icon {
+  font-size: 108px;
+  padding: 2px 38px;
+}
+.temp {
+  font-size: 35px;
+  padding: 0px -1px;
+}
+.units {
+  position: relative;
+  top: -14px;
+  left: -2px;
+  font-size: 15px;
+}
+.grade {
+  position: relative;
+  top: -12px;
+  left: 27px;
+}
+button {
+  position: relative;
+  top: -107px;
+  right: -66px;
+  display: block;
+  border: 1px solid white;
+  background: white;
+  color: #8ec9f9;
+  margin: 0 auto;
+  line-height: 24px;
+  padding: 5px 9px;
+  border-radius: 4px;
+}
+.second-icon {
+  font-size: 17px;
+}
+.col-2 {
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  padding: 74px 41px 44px 63px;
+}
+.col-2 i {
+  font-size: 30px;
+}
+.form-control {
+  display: block;
+  position: relative;
+  top: -70px;
+  left: -150px;
+  width: 216%;
+}
+h6 {
+  margin: -24px 80px 1px 21px;
+  padding: 7px 52px;
+}
+.newbutton {
+  position: relative;
+  top: -143px;
+  right: -131px;
+  display: block;
+  border: 1px solid white;
+  background: white;
+  color: #8ec9f9;
+  margin: 0 auto;
+  line-height: 24px;
+  padding: 5px -2px;
+  border-radius: 4px;
+}
