@@ -4,17 +4,19 @@
   box-shadow: 0 2px 2px 0rgba (0, 0, 0, 0.16), 0 0 0 1pxrgba (0, 0, 0, 0.08);
   margin: -18px -1px;
   max-width: 666px;
+  border-radius: 10px;
 }
 h1 {
-  position: relative;
-  top: 12px;
-  left: 20px;
   font-size: 40px;
-  margin: 49px 19px 3px -21px;
-  padding: 1px 50px;
+  margin: 29px 66px -28px 18px;
+  padding: 30px 42px 14px 29px;
 }
 h2 {
   font-size: 20px;
+  margin: 13px 84px -39px 15px;
+  padding: 11px 35px;
+}
+h6 {
   margin: 19px 69px 10px 15px;
   padding: 11px 35px;
 }
@@ -69,10 +71,6 @@ button {
   top: -70px;
   left: -150px;
   width: 216%;
-}
-h6 {
-  margin: -24px 80px 1px 21px;
-  padding: 7px 52px;
 }
 .newbutton {
   position: relative;
