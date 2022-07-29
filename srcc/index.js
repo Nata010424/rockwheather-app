@@ -30,11 +30,11 @@ function wheatherCity(response) {
   document.querySelector(
     "#humadity"
   ).innerHTML = `humidity: ${response.data.main.humidity}%`;
-  document.querySelector(
-    "#wind"
-  ).innerHTML = `wind: ${response.data.wind.speed} km/h`;
+  document.querySelector("#wind").innerHTML = `wind: ${Math.round(
+    response.data.wind.speed
+  )} km/h`;
   document.querySelector("h1").innerHTML = response.data.name;
-  document.querySelector("#rain").innerHTML =
+  document.querySelector("#describtion").innerHTML =
     response.data.weather[0].description;
 }
 function search(event) {
