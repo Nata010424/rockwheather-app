@@ -2,7 +2,7 @@
   background: #8ec9f9;
   color: white;
   box-shadow: 0 2px 2px 0rgba (0, 0, 0, 0.16), 0 0 0 1pxrgba (0, 0, 0, 0.08);
-  margin: -18px -1px;
+  margin: 24px -1px;
   max-width: 666px;
   border-radius: 10px;
 }
@@ -13,8 +13,8 @@ h1 {
 }
 h2 {
   font-size: 20px;
-  margin: 13px 84px -39px 15px;
-  padding: 11px 35px;
+  margin: 12px 87px -41px 15px;
+  padding: 9px 35px;
 }
 h6 {
   margin: 19px 69px 10px 15px;
@@ -45,7 +45,7 @@ h6 {
 button {
   position: relative;
   top: -107px;
-  right: -66px;
+  right: -118px;
   display: block;
   border: 1px solid white;
   background: white;
@@ -58,28 +58,19 @@ button {
 .second-icon {
   font-size: 17px;
 }
-.col-2 {
-  text-align: center;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  padding: 74px 41px 44px 63px;
-}
-.col-2 i {
-  font-size: 30px;
-}
+
 .form-control {
   display: block;
   position: relative;
   top: -70px;
   left: -150px;
-  width: 216%;
+  width: 250%;
 }
 
 .newbutton {
   position: relative;
   top: -143px;
-  right: -131px;
+  right: -183px;
   display: block;
   border: 1px solid white;
   background: white;
@@ -89,9 +80,6 @@ button {
   padding: 5px -2px;
   border-radius: 4px;
 }
-small {
-  padding: -1px 52px;
-}
 .active {
   color: white;
   cursor: default;
@@ -99,4 +87,23 @@ small {
 
 .active:hover {
   text-decoration: none;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+  margin: 0px -1px;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+  margin: 5px 3px;
+}
+
+.weather-forecast {
+  margin-left: 41px;
+  margin-top: 52px;
+  margin-bottom: -23px;
+  padding-bottom: 35px;
+}
+.weather-forecast-date {
+  margin: 4px 9px;
 }
